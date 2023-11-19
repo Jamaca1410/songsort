@@ -6,4 +6,4 @@ type Artist struct {
 	Name string
 }
 
-func (artist Artist) Printer() { fmt.Printf("THis is a test %s", artist.Name) }
+func (artist Artist) Printer() { fmt.Printf("\nThis is a test %s", artist.Name) }
